@@ -5,7 +5,7 @@ import SchoolsView from './Components/SchoolsView'
 import BoardMembers from './Components/BoardMembers'
 import QuestionSection from './Components/QuestionSection'
 import { HomeData } from './mockData'
-
+import FaqPage from '../faq'
 
 
 function HomePage() {
@@ -18,6 +18,7 @@ function HomePage() {
       <SchoolsView schoolData={HomeData.schoolData}/>
       <BoardMembers />
       <QuestionSection />
+      <FaqPage />
     </div>
   )
 }
