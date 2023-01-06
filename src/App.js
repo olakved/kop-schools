@@ -9,6 +9,7 @@ import ErrorPage from "./Pages/Error";
 import SchoolPage from "./Pages/Schools";
 import LoginPage from "./Pages/Login";
 import SignUpPage from "./Pages/Signup";
+import TimeTablePage from "./Components/timetableDoc";
 
 //Wrapper
 import LayoutWrapper from "./utils/WebWrapper";
@@ -22,6 +23,7 @@ function App() {
         <Route path='/schools' element={<SchoolPage />}/>
         <Route path='/login' element={<LoginPage />}/>
         <Route path='/signup' element={<SignUpPage />}/>
+        <Route path='/timetable' element={<TimeTablePage />}/>
         <Route path='*' element={<ErrorPage />}/>
       </Routes>
     </LayoutWrapper>

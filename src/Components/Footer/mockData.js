@@ -36,8 +36,8 @@ export const footerData = {
     title: "Schools",
     data: [
       {
-        path: "/",
-        title: "SCHOOL 1",
+        path: "/timetable",
+        title: "TIMETABLE",
       },
       {
         path: "/",
